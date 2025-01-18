@@ -312,10 +312,12 @@ a {
 }
 
 .service-nav{
-    padding: 100px 400px 0px 120px;
+    /* padding: 100px 400px 0px 120px; */
     color: #fff;
     /* text-align: center; */
-    text-decoration: solid;
+    /* text-decoration: solid; */
+    text-align: center;
+    padding: 10% 10%;
 
 }
 
@@ -326,12 +328,24 @@ a {
 .lines{
     appearance: none;
     background-color:#7cf03d; height: 2px; border: none;
-
-
 }
 
+.contact_type{
+    /* text-decoration: underline; */
+    color: #7cf03d;
+}
+.contact_link{
+     text-decoration: underline;
+     color: #7cf03d;
+}
 
-
+.contact_div{
+    text-align: center;
+    padding: 10% 10%;
+    width: 600px;
+    height: 350px;
+    background-color:black
+}
 
 
 
